@@ -15,5 +15,10 @@ En este reto se trabajó con un nuevo sistema de entrada o, en inglés, "System 
 
 ## Las acciones
 Presione el hipertexto para dirigirse a la acción deseada.
+[Movimiento con WASD y correr](Movimiento_y_correr.md)
+[Disparo](Disparo.md)
+[Brincar](Brincar.md)
+[Mirar](Mirar.md)
+
 
 
