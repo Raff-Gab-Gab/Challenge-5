@@ -1,6 +1,6 @@
 # Adelante, salta
 
-En este reto se trabajó con un nuevo sistema de entrada o, en inglés, "System of Inputs" para implementar una matriz de acciones para el jugador. Este último puede moverse verticalmente (eje de Z), horizontalmente (eje de Y) y desplazarse más rápido o correr. Además, el usuario puede disparar, brincar y mirar sus alrededores o, en otras palabras, tener movimiento rotativo. 
+En este reto se trabajó con un nuevo sistema de entrada o, en inglés, "System of Inputs" para implementar una matriz de acciones para el jugador. Este último puede moverse verticalmente (eje de Z), horizontalmente (eje de X) y desplazarse más rápido o correr. Además, el usuario puede disparar, brincar y mirar sus alrededores o, en otras palabras, tener movimiento rotativo. 
 
 ## Matriz de acción
 |Acción|Control|
@@ -15,4 +15,5 @@ En este reto se trabajó con un nuevo sistema de entrada o, en inglés, "System 
 
 ## Las acciones
 Presione el hipertexto para dirigirse a la acción deseada.
+
 
