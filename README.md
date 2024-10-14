@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/871a5b51-21fc-47bd-8792-9a93aee5950b
 Presione el hipertexto para dirigirse a la acción deseada. <br />
 [Movimiento con WASD y correr](Movimiento_y_correr.md) <br />
 [Disparo](Disparo.md) <br />
-[Brincar](Brincar.md) 
+[Extra: Enemigo](Brincar.md) 
 
 
 
