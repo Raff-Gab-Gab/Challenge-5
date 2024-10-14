@@ -13,6 +13,26 @@ En este reto se trabajó con un nuevo sistema de entrada o, en inglés, "System 
 |Movimiento horizontal rápido|Tecla de "shift" + teclas A y D o las flechas izquierda y derecha|
 |Movimiento vertical rápido|Tecla de "shift" + teclas W y S o las flechas arriba y abajo|
 
+## Movimiento horizontal y vertical
+
+![Walk SMALL 2](https://github.com/user-attachments/assets/a5fd1e63-82b7-4b5f-b7fc-6e4c5511a150)
+
+## Movimiento horizontal y vertical rápido
+
+![Sprint SMALL GIF](https://github.com/user-attachments/assets/6ac81505-12a0-46af-a924-d724d5bffa23)
+
+## Mirar
+
+![Look 2](https://github.com/user-attachments/assets/0c62e0fa-139e-4247-a2ae-18d30463a464)
+
+## Disparar
+
+![Shoot](https://github.com/user-attachments/assets/e9db5e9b-1391-4e5e-9bf8-2b2c52c507d8)
+
+## Brincar
+
+![Jump](https://github.com/user-attachments/assets/f08efe53-2496-4a86-b8dd-53c6cab556cd)
+
 ## Las acciones
 Presione el hipertexto para dirigirse a la acción deseada. <br />
 [Movimiento con WASD y correr](Movimiento_y_correr.md) <br />
