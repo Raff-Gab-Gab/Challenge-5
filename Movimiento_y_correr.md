@@ -46,6 +46,7 @@ Abrimos el componente Player Input en el inspector y se añadió una nueva acci�
 Se configuró como tipo Value para recibir valores continuos en lugar de acciones discretas. Se configuró el control de tipo Vector, para que se pueda manejar en conjunto con otras acciones de movimiento.
 
 ![Screenshot 2024-10-13 154532](https://github.com/user-attachments/assets/07f72622-727b-4fee-b161-64a2ca5d1e94)
+![image](https://github.com/user-attachments/assets/4081803e-586e-485a-99fc-4b41008d2dfc)
 
 # Script sprint 
 Dentro del script de PlayerMovement, se declaró una variable booleana IsSprinting. También se declaró una variable pública llamada sprintMultiplier que sería utilizada para aumentar la velocidad del jugador cuando esté corriendo.
@@ -56,26 +57,24 @@ Se implementó una nueva función OnSpint que escucha la acción de sprint dentr
 
 ![image](https://github.com/user-attachments/assets/4dc819f8-e10d-404a-9127-575f7340e13d)
 
-
 Después de implementar la función, ajustamos el valor de sprintMultiplier a través del inspector para encontrar el valor que hace que el sprint se note. Se probaron varios valores hasta encontrar la velocidad que mejor se ajusta al diseño del juego.
 
 # Jump
 
 Se agregó una acción a Player Input llamada “Jump”. Se configuró como tipo Button, lo que permite que acepte entradas cuando se presiona una tecla específica.
 
-foto
+![Screenshot 2024-10-13 154545](https://github.com/user-attachments/assets/1e4fe977-b253-46c9-9d0f-72b89fbef65a)
+![image](https://github.com/user-attachments/assets/835d6aaf-8b01-422a-a3cf-ac76605d486f)
 
 Asignamos el Spacebar como el control que activará la acción de salto.
 
-foto probably
+![image](https://github.com/user-attachments/assets/963c1c90-fe3d-4b18-80b2-47473270e1d9)
 
 # Script jump
 Dentro del script de PlayerMovement, se declaró una variable pública llamada height. Esta variable se utilizó para establecer un límite en cuán alto puede saltar el jugador antes de comenzar a descender.
 
-foto probably
+![image](https://github.com/user-attachments/assets/abc9e79b-4b65-4395-8227-47516ce3255a)
 
-Se implementó una nueva función llamada OnJump dentro del script. Esta función escucha la acción de jump cuando se presiona el Spacebar.
+Se implementó una nueva función llamada OnJump dentro del script. Esta función escucha la acción de jump cuando se presiona el Spacebar. Dentro de OnJump, se utilizó la función AddForce para aplicar una fuerza en el eje Y hacia arriba, lo que impulsa al jugador a saltar. El valor de la fuerza aplicada se determinó utilizando la variable height, para limitar cuánto puede elevarse el jugador
 
-
-Dentro de OnJump, se utilizó la función AddForce para aplicar una fuerza en el eje Y hacia arriba, lo que impulsa al jugador a saltar. El valor de la fuerza aplicada se determinó utilizando la variable height, para limitar cuánto puede elevarse el jugador
-
+![image](https://github.com/user-attachments/assets/70faa62a-fc9e-4f11-8a56-06953a9a3194)
