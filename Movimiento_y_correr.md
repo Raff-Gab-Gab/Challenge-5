@@ -78,3 +78,5 @@ Dentro del script de PlayerMovement, se declaró una variable pública llamada h
 Se implementó una nueva función llamada OnJump dentro del script. Esta función escucha la acción de jump cuando se presiona el Spacebar. Dentro de OnJump, se utilizó la función AddForce para aplicar una fuerza en el eje Y hacia arriba, lo que impulsa al jugador a saltar. El valor de la fuerza aplicada se determinó utilizando la variable height, para limitar cuánto puede elevarse el jugador
 
 ![image](https://github.com/user-attachments/assets/70faa62a-fc9e-4f11-8a56-06953a9a3194)
+
+[Volver al Readme](README.md)
