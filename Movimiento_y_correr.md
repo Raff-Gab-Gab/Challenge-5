@@ -1,4 +1,4 @@
-Personaje:
+# Personaje
 Abrimos el proyecto de Unity y colocamos el prefab de robot dentro del escenario. Este robot será el objeto principal que controlaremos en el juego.
 
 foto
@@ -11,28 +11,47 @@ Se le agregó un Box Collider al robot, este collider se ajustó y estiró, de m
 
 foto
 
+# Move y Look action
 Se colocó un componente de Player Input, este componente vino preconfigurado con las acciones Look y Fire ya definidas, que se utilizarán más adelante para controlar el movimiento de la cámara y disparar.
 
 foto
 
-script:
-Se creó un nuevo script llamado Movement, en el cual se manejará toda la lógica de control del robot. Se declararon las siguientes variables:
-
-speed: Controla la velocidad del movimiento del robot.
-rotationSpeed, movementValue, lookValue y
+# script movimiento
+Se creó un nuevo script llamado Movement, en el cual se manejará toda la lógica de control del robot. Se declararon las siguientes variables: speed, rotationSpeed, movementValue, lookValue y
 rg. 
 
 foto
 
+# Update
 Dentro de Update, se añadió la función AddRelativeForce, que se utilizó para que el robot pueda moverse hacia adelante o hacia atrás dependiendo de la dirección en la que esté mirando. También se agregó AddRelativeTorque, permitiendo al robot rotar en el eje correspondiente. Esto fue usado para controlar la rotación del jugador.
 
 foto
 
+# Movimiento
 Se implementó una función llamada OnMove, que permite capturar las acciones de movimiento definidas en el Player Input component. Esta función se conecta a los inputs del jugador para controlar el movimiento. Dentro de OnMove, se verificó si la tecla Shift está presionada. Si es así, se aplica un sprintMultiplier que aumenta la velocidad del robot temporalmente, permitiendo al jugador correr. Esta lógica nos permitirá más adelante implementar una mecánica de sprint o carrera rápida.
 
 foto
 
+# Rotación 
 Finalmente, se creó la función OnLook, que se encarga de controlar la rotación del personaje. Esta función toma los valores de entrada del eje X y Y para permitir que el robot mire en diferentes direcciones.
 
 foto
 
+# Sprint action
+Abrimos el componente Player Input en el inspector y se añadió una nueva acción 	que se llamó "sprint". 
+Se configuró como tipo Value para recibir valores continuos en lugar de acciones discretas. Se configuró el control de tipo Vector, para que se pueda manejar en conjunto con otras acciones de movimiento.
+
+foto
+
+# script sprint 
+Dentro del script de PlayerMovement, se declaró una variable booleana IsSprinting. También se declaró una variable pública llamada sprintMultiplier que sería utilizada para aumentar la velocidad del jugador cuando esté corriendo.
+
+foto
+
+Se implementó una nueva función OnSpint que escucha la acción de sprint dentro del input component. Dentro de esta función, se utilizó un condicional para verificar si la tecla Shift está presionada. Si Shift está presionada, se establece IsSprinting en verdadero. (En la función OnMove, como establecimos anteriormente, se verificó el valor de IsSprinting. Si IsSprinting es verdadero, se multiplica la velocidad del jugador por sprintMultiplier para aumentar la velocidad del movimiento. Si no, el jugador se mueve a la velocidad regular.)
+
+foto
+
+Después de implementar la función, ajustamos el valor de sprintMultiplier a través del inspector para encontrar el valor que hace que el sprint se note. Se probaron varios valores hasta encontrar la velocidad que mejor se ajusta al diseño del juego.
+
+foto
