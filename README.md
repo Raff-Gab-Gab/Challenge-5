@@ -33,6 +33,14 @@ En este reto se trabajó con un nuevo sistema de entrada o, en inglés, "System 
 
 ![Jump](https://github.com/user-attachments/assets/f08efe53-2496-4a86-b8dd-53c6cab556cd)
 
+## Prueba de todos los movimientos
+
+
+
+https://github.com/user-attachments/assets/871a5b51-21fc-47bd-8792-9a93aee5950b
+
+
+
 ## Las acciones
 Presione el hipertexto para dirigirse a la acción deseada. <br />
 [Movimiento con WASD y correr](Movimiento_y_correr.md) <br />
