@@ -47,7 +47,7 @@ Se configuró como tipo Value para recibir valores continuos en lugar de accione
 
 ![Screenshot 2024-10-13 154532](https://github.com/user-attachments/assets/07f72622-727b-4fee-b161-64a2ca5d1e94)
 
-# script sprint 
+# Script sprint 
 Dentro del script de PlayerMovement, se declaró una variable booleana IsSprinting. También se declaró una variable pública llamada sprintMultiplier que sería utilizada para aumentar la velocidad del jugador cuando esté corriendo.
 
 ![image](https://github.com/user-attachments/assets/68a1d4f0-86f5-4c07-9b62-88f6b6ec556b)
@@ -59,4 +59,23 @@ Se implementó una nueva función OnSpint que escucha la acción de sprint dentr
 
 Después de implementar la función, ajustamos el valor de sprintMultiplier a través del inspector para encontrar el valor que hace que el sprint se note. Se probaron varios valores hasta encontrar la velocidad que mejor se ajusta al diseño del juego.
 
+# Jump
+
+Se agregó una acción a Player Input llamada “Jump”. Se configuró como tipo Button, lo que permite que acepte entradas cuando se presiona una tecla específica.
+
+foto
+
+Asignamos el Spacebar como el control que activará la acción de salto.
+
+foto probably
+
+# Script jump
+Dentro del script de PlayerMovement, se declaró una variable pública llamada height. Esta variable se utilizó para establecer un límite en cuán alto puede saltar el jugador antes de comenzar a descender.
+
+foto probably
+
+Se implementó una nueva función llamada OnJump dentro del script. Esta función escucha la acción de jump cuando se presiona el Spacebar.
+
+
+Dentro de OnJump, se utilizó la función AddForce para aplicar una fuerza en el eje Y hacia arriba, lo que impulsa al jugador a saltar. El valor de la fuerza aplicada se determinó utilizando la variable height, para limitar cuánto puede elevarse el jugador
 
