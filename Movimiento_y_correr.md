@@ -3,7 +3,7 @@ Abrimos el proyecto de Unity y colocamos el prefab de robot dentro del escenario
 
 ![Screenshot 2024-10-13 153325](https://github.com/user-attachments/assets/acc398e8-b069-4e13-ab41-c7ab78525098)
 
-Al robot, se le añadió un componente Rigidbody, que permite interactuar con las físicas de Unity. Se configuró la mass y el drag en 1 y el angular drag se ajustó a 20, para que el robot tenga una alta resistencia a la rotación, evitando que gire de manera brusca o descontrolada. 
+Al robot, se le añadió un componente Rigidbody, que permite interactuar con las físicas de Unity. Se configuró la masa y el drag en 1 y el angular drag se ajustó a 20, para que el robot tenga una alta resistencia a la rotación, evitando que gire de manera brusca o descontrolada. 
 
 ![Screenshot 2024-10-13 153416](https://github.com/user-attachments/assets/1c2cde53-5936-4ed5-83d3-d24a7e242c19)
 
