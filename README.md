@@ -46,7 +46,7 @@ Presione el hipertexto para dirigirse a la acción deseada. <br />
 [Movimiento con WASD, correr, mirar y brincar](Movimiento_y_correr.md) <br />
 [Disparo](Disparo.md) <br />
 [Extra: Enemigo](Enemigo.md) <br />
-[Script entero](fullScript.md)
+[Script entero de Movement](fullScript.md)
 
 
 
